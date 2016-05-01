@@ -26,7 +26,7 @@
         if($event->getPlayer()->hasPermission("vip.join"))
         {
 
-          $event->setCanccelled();
+          $event->setCancelled();
 
         }
 
